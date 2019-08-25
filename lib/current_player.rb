@@ -1,9 +1,8 @@
 def turn_count(board)
-  x = 0
+  arr = []
     board.each do |position|
-      if position == "X" || position == "O"
-        x += 1
+      if position == "X" || position = "O"
+        arr.push(1)
       end
   end
-  return x
 end
